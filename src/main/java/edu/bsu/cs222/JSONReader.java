@@ -9,9 +9,9 @@ public class JSONReader {
     public String parseName(Object name){
         Object result = JsonPath.read(name, "$..User");
         String finalResult = result.toString().replace("[", "");
+        String finalR = finalResult.replace("\"", "");
 
-
-        return finalResult.replace("]", "");
+        return finalR.replace("]", "");
 
     }
 
