@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.bsu.cs222.CreateUserTesting" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-10-19T19:58:50" hostname="samsung-sm-g930v.dhcp.bsu.edu" time="0.012">
+  <properties/>
+  <testcase name="getPhoneNumber()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <testcase name="getName()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <testcase name="setEmail()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <testcase name="setPhone()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <testcase name="getEmail()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <testcase name="setName()" classname="edu.bsu.cs222.CreateUserTesting" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
