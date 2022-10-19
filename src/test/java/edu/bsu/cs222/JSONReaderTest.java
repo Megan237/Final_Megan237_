@@ -22,7 +22,6 @@ public class JSONReaderTest {
 
         URL resource = getClass().getClassLoader().getResource("User1.json");
         FileReader reader = new FileReader(new File(resource.toURI()));
-        //FileReader reader = new FileReader("/Users/erika/Final-megan237-ed749-hannahj001-ceendris/src/test/resources/User1.json");
         Object object = jsonParser.parse(reader);
         JSONReader JSONFileReader = new JSONReader();
         String result = JSONFileReader.parseName(object);
